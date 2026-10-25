@@ -1,8 +1,14 @@
-## 🧭 Script de Geolocalización y Rutas (`geolocalizacion.py`)
+# Evaluación Parcial 2 - Geolocalización y Rutas
 
-Este script interactivo permite calcular la distancia real y el tiempo estimado de trayecto entre dos ubicaciones utilizando la API de **GraphHopper**, procesando las coordenadas geográficas y generando una narrativa detallada del viaje con los valores redondeados a 2 decimales.
+**Integrantes:** 
+- Ángel Salame
+- Alex Formas
+- Gonzalo Díaz
 
-### 📋 Prerrequisitos
-Asegúrate de tener instalado **Python 3** y la librería `requests` en tu entorno. Puedes instalarla ejecutando el siguiente comando en la terminal:
+## ¿Qué hace este script?
+Este programa sirve para calcular la distancia en kilómetros y el tiempo estimado de viaje entre dos lugares usando la API de GraphHopper. El código procesa las coordenadas, muestra una narrativa del trayecto con los valores redondeados a 2 decimales y permite salir escribiendo "s" o "salir".
+
+## Requisitos previos
+Necesitas tener Python 3 instalado y la librería `requests`. Si no la tienes, la puedes instalar con este comando en la terminal:
 ```bash
 pip install requests
